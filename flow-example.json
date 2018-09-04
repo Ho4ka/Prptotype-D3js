@@ -1,0 +1,56 @@
+{
+    "components": [
+        {
+            "id": "4028fd1b651e929701651e93719b0000",
+            "name": "Comp-1",
+            "templateId": "Temp-1",
+            "position": {
+                "x": 215.5554456,
+                "y": -3.4645845
+            }
+        },
+        {
+            "id": "4028fd1b651e929701651e93c6950002",
+            "name": "Comp-2",
+            "templateId": "Temp-2",
+            "position": {
+                "x": 894.1286880508936,
+                "y": 237.21322589130256
+            }
+        },
+        {
+            "id": "4028fd1b651e929701651e9386240003",
+            "name": "Comp-3",
+            "templateId": "Temp-3",
+            "position": {
+                "x": 594.1286880508936,
+                "y": 537.21322589130256
+            }
+        }
+
+    ],
+    "connections": [
+        {
+            "id": "4028fd1b651e929701651e93719b0000",
+            "source": {
+                "componentId": "4028fd1b651e929701651e93719b0000",
+                "port": "PutHL7"
+            },
+            "target": {
+                "componentId": "4028fd1b651e929701651e93c6950002",
+                "port": "GetHL7"
+            }
+        },
+        {
+            "id": "4028fd1b651e929701651e9386240003",
+            "source": {
+                "componentId": "4028fd1b651e929701651e93c6950002",
+                "port": "PutAuth"
+            },
+            "target": {
+                "componentId": "4028fd1b651e929701651e9386240003",
+                "port": "ReadAuth"
+            }
+        }
+    ]
+}

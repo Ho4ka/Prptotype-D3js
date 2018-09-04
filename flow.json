@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "name": "Comp-1",
+      "label": "",
+      "id": 1,
+      "position": {
+        "x": 215.5554456,
+        "y": -3.4645845
+      }
+    },
+    {
+      "name": "Comp-2",
+      "label": "",
+      "id": 2,
+      "position": {
+        "x": 494.1286880508936,
+        "y": 137.21322589130256
+      }
+    },
+    {
+      "name": "Comp-3",
+      "label": "",
+      "id": 3,
+      "position": {
+        "x": 850.1286880508936,
+        "y": 137.21322589130256
+      }
+    },
+    {
+      "name": "Comp-4",
+      "label": "",
+      "id": 4,
+      "position": {
+        "x": 994.1286880508936,
+        "y": 237.21322589130256
+      }
+    }
+  ],
+  "connections": [
+    {
+      "source": 1,
+      "target": 2,
+      "type": "Output"
+
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "type": "Input"
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "type": "Output"
+    }
+
+  ]
+}
